@@ -1,0 +1,110 @@
+
+:root {
+  --primary-color: #f2c94c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+ 
+  color: #333333;
+}
+
+nav {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bolder;
+}
+
+.brand {
+  
+  font-weight: bolder;
+}
+
+
+/* header */
+header {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+header img {
+  width: 100%;
+}
+
+/* main */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#txtInput {
+  display: block;
+  margin-top: 2rem;
+  height: 20vh;
+  width: 100%;
+  font-size: large;
+}
+
+#btnTranslate {
+  background-color: var(--primary-color);
+  font-size: large;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+
+}
+
+#output {
+  color: #ac830a;
+  border: 2px solid black;
+  height: 15vh;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+/* footer */
+
+footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2c94c;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+footer a,
+footer img,
+footer li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  
+  padding: 0.2rem;
+}
+
